@@ -90,7 +90,7 @@ for r in range(6):
         for block in paintTiles:
             if ((block.x == c * tileSize) and (block.y == r * tileSize) and not(tileFound)):
                 mapString += "w"
-                tileFound == True
+                tileFound = True
 
         if not(tileFound):
             mapString += " "
